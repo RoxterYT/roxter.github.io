@@ -40,15 +40,18 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight:bolder ;
+    transition: 0.3s;
 }
 
 a:hover {
     color: red;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .activo {
-    color: red;
+    color: #00ffff;
     text-decoration: none;
 }
 /*===============*/
