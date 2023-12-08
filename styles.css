@@ -18,11 +18,9 @@ header {
 }
 
 /*Logo header*/
-
 .logo img {
     width: 125px;
 }
-/*===============*/
 
 /*NAVEGADOR*/
 nav ul {
@@ -49,10 +47,9 @@ a:hover {
 }
 
 .activo {
-    color: #00ffff;
+    color: #00bfff;
     text-decoration: none;
 }
-/*===============*/
 
 /*TODO EL CONTENIDO*/
 .principal {
@@ -61,20 +58,22 @@ a:hover {
     justify-content: space-between;
     flex: 1;
 }
-/*===============*/
+
+a {
+    color:#00bfff
+}
 
 /*BARRA LATERAL*/
-aside {
+/* aside {
     width: 20%;
     padding: 20px;
     background-color: #7c7c7c;
     order: 2;
-}
-/*===============*/
+} */
 
 /*CONTENIDO INDIVIDUAL*/
 .contenido {
-    width: 65%;
+    width: 100%;
     padding: 20px;
     order: 1;
 }
@@ -89,10 +88,10 @@ aside {
     display: block; 
 }
 
-
-/* Estilos del pie de página */
+/* pie de pagina */
 footer {
-    color: #463d3d;
+    background-color:#1a1a1a;
+    color: white;
     padding: 10px 20px;
     text-align: center;
 }
@@ -139,4 +138,3 @@ footer {
         margin: 5px auto;
     }
 }
-/*===============*/
