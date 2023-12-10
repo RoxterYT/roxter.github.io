@@ -59,6 +59,10 @@ a:hover {
     flex: 1;
 }
 
+.textorojo {
+    color: #ff0000;
+}
+
 a {
     color:#00bfff
 }
